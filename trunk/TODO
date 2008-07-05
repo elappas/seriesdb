@@ -1,0 +1,3 @@
+1.security issues:
+	a. parse argument to avoid sql injections
+	b. create user and password entries
