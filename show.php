@@ -5,12 +5,7 @@ include 'library/opendb.php';
 $show = $_GET['name'];
 $query  = "SELECT * FROM ts_seasons WHERE Name='{$show}'";
 $result2 = mysql_query($query);
-echo "<table><tr><td>";
-echo "<H3>{$show} </H3> </td>
-	<td>
-	<a href=\"index.php\"> back </a>
-	</td>";
-echo "</table>";
+echo "<H3>{$show} </H3>\n"; 
 echo "<table border=1 rules=all>\n
       <tr>
       <th>Name </th>
